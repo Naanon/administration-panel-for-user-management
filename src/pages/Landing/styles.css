@@ -1,0 +1,86 @@
+.add-new-user {
+    box-shadow: 0 2px 8px rgb(0, 0, 0, 0.2);
+    padding: 25px 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-new-user span {
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.add-new-user .create-user {
+    padding: 15px 50px;
+    border-radius: 8px;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #1E90FF;
+    background-color: white;
+    border: 1px solid #1E90FF;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.add-new-user .create-user:hover {
+    color: white;
+    background-color: #1E90FF;
+}
+
+.user-list {
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.user-list table, tr {
+    border-collapse: collapse;
+    box-shadow: 0 2px 8px rgb(0, 0, 0, 0.2);
+}
+
+.user-list td {
+    text-align: center;
+}
+
+.user-list th, td {
+    padding: 25px 60px;
+}
+
+.user-list .edit-user {
+    padding: 15px 50px;
+    border-radius: 8px;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #E5DB27;
+    background-color: white;
+    border: 1px solid #E5DB27;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.user-list .edit-user:hover {
+    color: white;
+    background-color: #E5DB27;
+}
+
+.user-list .delete-user {
+    padding: 15px 50px;
+    border-radius: 8px;
+    font-size: 16px;
+    text-decoration: none;
+    color:#D2042D;
+    background-color: white;
+    border: 1px solid #D2042D;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.user-list .delete-user:hover {
+    color: white;
+    background-color: #D2042D;
+}

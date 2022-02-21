@@ -1,0 +1,54 @@
+.create-user {
+    box-shadow: 0 2px 8px rgb(0, 0, 0, 0.2);
+    padding: 25px 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.create-user span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+fieldset {
+    padding: 20px 30px;
+    border: none;
+}
+
+footer {
+    padding-right: 30px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: end;
+}
+
+footer .cancel {
+    padding: 15px 50px;
+    border: 1px solid red;
+    border-radius: 8px;
+    color: red;
+    text-decoration: none;
+    margin-right: 25px;
+    transition: 0.2s;
+}
+
+footer .cancel:hover {
+    color: white;
+    background-color: red;
+}
+
+footer button {
+    padding: 15px 50px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #1E90FF;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+footer button:hover {
+    background-color: #4169E1;
+}
